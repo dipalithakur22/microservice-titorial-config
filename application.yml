@@ -1,3 +1,6 @@
+Spring:  
+  application:
+    name: Config-default
 eureka:
   client:
     fetch-registry: true #client is registry client fetch to the server
