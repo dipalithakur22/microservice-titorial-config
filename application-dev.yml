@@ -1,1 +1,14 @@
 
+Spring:  
+  application:
+    name: Config-default
+eureka:
+  client:
+    fetch-registry: true #client is registry client fetch to the server
+    register-with-eureka: true #client register to the server
+    service-url:
+      defaultZone: http://localhost:8761/eureka #in order to register with server
+      
+  instance:
+    prefer-ip-address: true  #ip address of server should be used in preference to the hostname by OS
+        
